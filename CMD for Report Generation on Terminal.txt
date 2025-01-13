@@ -1,0 +1,5 @@
+---------------Run  on the Command Line-------
+
+C:\Users\User\Downloads\Project_Folder>newman run Restful-Booker[Automation-Testing].postman_collection.json -e Restful-Booker[Automation-Testing]Environment.postman_environment.json
+
+C:\Users\User\Downloads\Project_Folder>newman run Restful-Booker[Automation-Testing].postman_collection.json -e Restful-Booker[Automation-Testing]Environment.postman_environment.json -r cli,htmlextra
