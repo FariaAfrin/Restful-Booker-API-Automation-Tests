@@ -3,3 +3,30 @@
 C:\Users\User\Downloads\Project_Folder>newman run Restful-Booker[Automation-Testing].postman_collection.json -e Restful-Booker[Automation-Testing]Environment.postman_environment.json
 
 C:\Users\User\Downloads\Project_Folder>newman run Restful-Booker[Automation-Testing].postman_collection.json -e Restful-Booker[Automation-Testing]Environment.postman_environment.json -r cli,htmlextra
+
+
+
+
+How to write CMD on Terminal:
+----------------------------------
+
+
+1. For Only if you have Collection File
+---------------------------------------
+
+C:\Users\User\Downloads\Project_Folder>newman run collectionName.postman_collection.json
+
+// Report Generate
+
+C:\Users\User\Downloads\Project_Folder>newman run collectionName.postman_collection.json -r cli,htmlextra
+
+
+
+2. For Both Collection & Environment File
+------------------------------------------
+
+C:\Users\User\Downloads\Project_Folder>newman run collectionName.postman_collection.json -e environmentName.postman_environment.json
+
+// Report Generate
+
+C:\Users\User\Downloads\Project_Folder>newman run collectionName.postman_collection.json -e environmentName.postman_environment.json -r cli,htmlextra
